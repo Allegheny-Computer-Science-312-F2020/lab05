@@ -1,0 +1,23 @@
+/* Database builder file.*/
+/* 14 Oct 2020 */
+
+/* Enable foreign keys: automatically check any foreign key constraints */
+PRAGMA foreign_keys = ON; /* Enable foreign keys */
+
+
+
+/*Creation of database tables. Edit as necessary. */
+
+CREATE TABLE myTable1 ();
+CREATE TABLE myTable2 ();
+CREATE TABLE myTable3 ();
+
+
+/*Insertion of data. Please add some preliminary data. Edit as necessary. */
+
+INSERT INTO myTable1 VALUES ();
+INSERT INTO myTable2 VALUES ();
+INSERT INTO myTable3 VALUES ();
+
+
+/* Usage: cat dbBuilder.txt | sqlite3 myDB.sqlite3 */
